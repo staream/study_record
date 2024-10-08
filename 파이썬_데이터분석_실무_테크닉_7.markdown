@@ -16,7 +16,7 @@ categories: KhuDa
 
 운송 최적화뿐만 아니라 네트워크 전체의 최적화가 필요하다.
 
-<img src="image.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network"></img><br/>
+<img src="image.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network"></img><br/>
 
 고려 대상
 - 제품을 판매하는 대리점
