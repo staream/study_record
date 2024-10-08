@@ -60,7 +60,7 @@ for i in range(NUM):
 nx.draw_networkx(G,node_color="k", edge_color="k", font_color="w")
 plt.show()
 ```
-<img src="image-7.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-7.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 사용함수
 - draw가 아닌, draw_network 사용
@@ -141,12 +141,12 @@ t = 35
 nx.draw_networkx(G,font_color="w",node_color=active_node_coloring(list_timeSeries[t]))
 plt.show()
 ```
-<img src="image-8.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-8.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 
-<img src="image-9.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-9.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
-<img src="image-10.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-10.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 입소문이 활성화된 노드는 빨간색으로, 전파되지 않은 노드는 검은색으로 색칠하는 함수이다.
 
@@ -164,7 +164,7 @@ plt.plot(list_timeSeries_num)
 plt.show()
 ```
 
-<img src="image-11.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-11.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 #### 회원 수의 시계열 변화를 시뮬레이션해 보자
 
@@ -212,10 +212,10 @@ simulate_population 함수
 - 입소문 전파 
 - '소멸' (회원 탈퇴)
 
-<img src="image-12.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-12.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 소멸 확률을 0.2로 한 경우
-<img src="image-13.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-13.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 #### 파라미터 전체를 '상관관계'를 보면서 파악
 입소문의 전파와 이용 중단의 확률
@@ -258,7 +258,7 @@ plt.tick_params(bottom=False,
 plt.show()
 ```
 
-<img src="image-14.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-14.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 추론
 - 소멸 확률이 20~30%를 넘으면 입소문 확률이 높더라도 이용자는 증가하지 않는 모습을 볼 수 있다.
@@ -289,7 +289,7 @@ for i in range(NUM):
 plt.hist(array_linkNum, bins=10,range=(0,250))
 plt.show()
 ```
-<img src="image-15.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-15.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 Matplotlib의 hist함수로 링크 개수의 히스토그램을 표시한다.
 
 그래프는 링크 개수가 대략 100 정도에 집중된 정규분포에 가까운 모습이다.
@@ -342,8 +342,8 @@ estimated_percent_percolation = count_link_to_active/count_link
 ##### kick ? code is so hard
 
 #### 실제 데이터와 시뮬레이션 비교
-<img src="image-13.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
-<img src="image-13.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-13.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-13.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 ```python
 
@@ -414,12 +414,3 @@ plt.show()
 24개월 이후엔 '평범한 결과'라고 보이지만, 중요한 것은 population이 급격히 할 수 있는 지
 
 시뮬레이션은 사전에 생길수 있는 문제를 알 수 있기에
-
-```python
-
-
-```
-```python
-
-
-```

@@ -169,7 +169,7 @@ nx.draw(G, pos, with_labels=True,font_size=16, node_size = 1000, node_color='k',
 # 표시
 plt.show()
 ```
-<img src="image-1.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-1.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 추론
 1. 특정 네트워크만이 활발한 교류를 보인다
@@ -233,7 +233,7 @@ df_plan = pd.read_csv('product_plan.csv', index_col="제품")
 print(df_plan)
 
 ```
-<img src="image-3.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-3.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 product_plan_material.csv 의 특징 
 - 두 종류의 제품
@@ -273,7 +273,7 @@ SUM(이익 * 제조량)
 #### 생산 최적화 문제를 풀기
 
 
-<img src="image-1.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-1.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 ```python
 import pandas as pd
@@ -333,7 +333,7 @@ def condition_stock(df_plan,df_material,df_stock):
 
 print("제약 조건 계산 결과:"+str(condition_stock(df_plan_sol,df_material,df_stock)))
 ```
-<img src="image-4.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-4.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 결과는 제약 조건은 모두 충족됐으며 원료2와 원료3은 재고를 모두 사용한 것을 알 수 있다.
 
@@ -413,7 +413,7 @@ tbdi2
 2. 경로 사용 : 운송비가 적은 X->대리점 P, 공장 Y-> 대리점 Q의 경로를 사용 
 
 #### 최적 네트워크의 생산 비용과 그 내역을 계산하자
-<img src="image-1.png" width="30px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
+<img src="image-1.png" width="px" height="250px" title="px(픽셀) 크기 설정" alt="network_visualization"></img><br/>
 
 ```python
 product_cost = 0
